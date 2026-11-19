@@ -1,0 +1,20 @@
+# StreamIQ - Production & Cloud Dependencies
+# Core UI and dashboard framework
+streamlit>=1.36.0
+
+# Data manipulation and analytical processing
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Interactive data visualizations
+plotly>=5.22.0
+
+# Statistical calculations (hypothesis testing, confidence intervals, SRM chi-square)
+scipy>=1.11.0
+
+# Test runner
+pytest>=8.0.0
+
+# Groq API (OpenAI-compatible SDK)
+openai>=1.30.0
+python-dotenv>=1.0.0

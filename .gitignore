@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets (DO NOT COMMIT SECRETS)
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Pytest / Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Scratch & Development Artifacts
+scratch/
+test_shot.png
+*.log
+
+# SQLite Databases (generated deterministically on cloud deployment)
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+!data/.gitkeep
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
